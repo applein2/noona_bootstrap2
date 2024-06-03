@@ -31,18 +31,15 @@
 
 footer {
     background-color: black;
+    color: white;
 }
 
 .first-line {
     color: white;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #392d23;
 }
 
-.col {
-    color: white;
-}
-
-a {
+.second-line a {
     text-decoration: none;
     color: white;
 }
@@ -78,4 +75,13 @@ a {
     }
 }
 
+.third-line {
+    display: none;
+}
+
+@media (max-width: 48rem) {
+    .third-line {
+        display: block;
+    }
+}
 
